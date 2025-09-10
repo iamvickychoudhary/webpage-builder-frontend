@@ -1,12 +1,24 @@
-# React + Vite
+MERN Webpage Builder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A drag-and-drop webpage builder built using the MERN stack (MongoDB, Express, React, Node.js) with authentication, page management, and real-time collaboration.
 
-Currently, two official plugins are available:
+ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1 User Authentication (Register/Login/Logout with JWT)
+2 Create, Save, and Publish Pages
+3 Drag-and-drop editor with blocks (Text, Image, Button, Card, List, Container, Divider, etc.)
+4 Real-time collaboration using Socket.IO
+5 Pages stored in MongoDB per user
 
-## Expanding the ESLint configuration
+3️⃣ Frontend Setup (client)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1 Open a new terminal and navigate to the frontend folder:
+  cd webpage-builder-frontend
+
+2 Install dependencies:
+  npm install
+
+3 Update REACT_APP_API_URL if needed (default: http://localhost:5000/api).
+
+4 Start the frontend:
+  npm run dev
